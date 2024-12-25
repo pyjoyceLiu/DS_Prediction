@@ -47,20 +47,26 @@ Preprocess Data:
 The script merges and processes weather, fuel, and crop data into a single dataset.
 Missing values are handled via imputation and forward-fill techniques.
 Extracted features include year, month, and week.
-- Train Models:
+
+Train Models:
+
 XGBoost:
 
 Use GridSearchCV for hyperparameter tuning.
 Train separate models for cabbage, cauliflower, and Chinese cabbage prices.
+
 SVR:
 
 Alternative regression model with hyperparameter tuning.
+
 CNN+Transformer:
 
 Deep learning approach for time-series prediction.
+
 Evaluate Models:
-- Metrics:
-- 
+
+Metrics:
+
 Root Mean Squared Error (RMSE)
 Mean Absolute Error (MAE)
 R² Score
