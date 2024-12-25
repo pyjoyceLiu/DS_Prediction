@@ -65,8 +65,8 @@ Extracted features include year, month, and week.
 
 3. Evaluate Models:
 
-Metrics:
+- Metrics:
 
-- Root Mean Squared Error (RMSE)
-- Mean Absolute Error (MAE)
-- R² Score
+  - Root Mean Squared Error (RMSE)
+  - Mean Absolute Error (MAE)
+  - R² Score
