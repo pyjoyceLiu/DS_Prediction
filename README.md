@@ -55,13 +55,13 @@ Extracted features include year, month, and week.
   Use GridSearchCV for hyperparameter tuning.
   Train separate models for cabbage, cauliflower, and Chinese cabbage prices.
 
-SVR:
+- SVR:
 
-Alternative regression model with hyperparameter tuning.
+  Alternative regression model with hyperparameter tuning.
 
-CNN+Transformer:
+- CNN+Transformer:
 
-Deep learning approach for time-series prediction.
+  Deep learning approach for time-series prediction.
 
 3. Evaluate Models:
 
