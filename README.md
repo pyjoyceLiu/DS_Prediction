@@ -29,7 +29,7 @@ DS_Prediction/
 ├── test.csv
 ├── train.csv
 ├── ...
-# 
+```
 # Technologies Used
 ## Programming Language:
 Python 3.11.9
