@@ -34,6 +34,7 @@ DS_Prediction/
 This project involves predictive modeling to forecast the prices and trading volumes of various crops using machine learning techniques like XGBoost, Support Vector Regression (SVR), and Convolutional Neural Networks (CNN). The models utilize weather data, fuel prices, and historical crop prices to make predictions.
 ## Requirements
 - Python 3.7+
+
 Required libraries:
 - pandas
 - numpy
@@ -44,16 +45,16 @@ Required libraries:
 ## How to Run
 1. Preprocess Data:
 
-The script merges and processes weather, fuel, and crop data into a single dataset.
-Missing values are handled via imputation and forward-fill techniques.
-Extracted features include year, month, and week.
+- The script merges and processes weather, fuel, and crop data into a single dataset.
+- Missing values are handled via imputation and forward-fill techniques.
+- Extracted features include year, month, and week.
 
 2. Train Models:
 
 - XGBoost:
 
-  Use GridSearchCV for hyperparameter tuning.
-  Train separate models for cabbage, cauliflower, and Chinese cabbage prices.
+  - Use GridSearchCV for hyperparameter tuning.
+  - Train separate models for cabbage, cauliflower, and Chinese cabbage prices.
 
 - SVR:
 
@@ -61,7 +62,7 @@ Extracted features include year, month, and week.
 
 - CNN+Transformer:
 
-  Deep learning approach for time-series prediction.
+  A deep learning method that integrates convolutional and transformer-based architectures for advanced predictive modeling.
 
 3. Evaluate Models:
 
