@@ -23,5 +23,9 @@ DS_Prediction/
 │   ├── east_weekly_averages.csv
 │   ├── north_weekly_averages.csv
 │   ├── south_weekly_averages.csv
-├──
-...
+├── Data_Analysis.ipynb
+├── fuel_prices.csv
+├── model.ipynb
+├── test.csv
+├── train.csv
+├── ...
