@@ -9,3 +9,17 @@ https://ncu365-my.sharepoint.com/:w:/r/personal/113522097_office365_ncu_edu_tw/D
 https://ncu365-my.sharepoint.com/:p:/r/personal/113522097_office365_ncu_edu_tw/Documents/Group6_Project_Slide.pptx?d=w8106d49f03cf4f74aae85a5db572bf78&csf=1&web=1&e=fmK1vj
 
 6. Code & Instruction (How to reproduce your result)
+# Project Structure
+DS_Prediction/
+├── collect-data-code-ipynb/
+│   ├── Crawler_Fuel.ipynb
+├── vegetable-csv/
+│   ├── Domestic_Cabbage.csv
+│   ├── Domestic_Cauliflower.csv
+│   ├── Domestic_Chinese_cabbage.csv
+├── weather-csv/
+│   ├── central_weekly_averages.csv
+│   ├── east_weekly_averages.csv
+│   ├── north_weekly_averages.csv
+│   ├── south_weekly_averages.csv
+├── ...
