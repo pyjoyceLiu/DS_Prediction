@@ -1,18 +1,28 @@
 # DS_Prediction
 
 ## Project Description
-探討蔬菜價格受天氣、供需、燃油價格等多重因素之間的關係，並利用數據建構三種價格預測模型：XGBoost、SVR 以及 CNN+Transformer。目的是提升價格預測準確率，進一步用於農業規劃、供應鏈管理以及政策制定等等。
+This project explores the relationships between vegetable prices and multiple factors such as weather, supply and demand, and fuel prices. It utilizes data to construct three price prediction models: XGBoost, SVR, and CNN+Transformer. The goal is to improve the accuracy of price predictions, enabling applications in agricultural planning, supply chain management, and policy-making.
 
 ## Data Sources
-1. 天氣相關資料
-    - [交通部氣象署—每月氣象](https://www.cwa.gov.tw/V8/C/C/Statistics/monthlydata.html)
-2. 燃油相關資料
-    - [台灣中油股份有限公司—汽、柴、燃油歷史價格](https://www.cpc.com.tw/cp.aspx?n=92)
-3. 蔬菜價格以及交易量資料
-    - [農產品交易行情](https://m.moa.gov.tw/Transaction/AgriculturalProduct/Index)
+1. Agricultural Product Wholesale Market Trading Data
+  -  Obtained from the Agricultural Marketing Information System (AMIS) website, which provides agricultural transaction data, including daily trading volumes, average prices, and market distributions.
+2. Historical Fuel Price Data
+  - Retrieved from the CPC Corporation, Taiwan website, offering historical data on gasoline and diesel prices.
+3. Agricultural Meteorological Observation Network
+  - Sourced from the Agricultural Meteorological Observation Network, jointly provided by the Central Weather Bureau and the Ministry of Agriculture. Includes data on temperature, rainfall, relative humidity, wind speed, and solar radiation.
 
 ## Data Collection and Preprocessing
-....待更新....
+1. Weather Feature Data:
+  - Combined weekly meteorological data collected via web scraping from northern, central, southern, and eastern regions to unify weather data across Taiwan.
+  - Checked for missing values in regional weather data and filled them using data from the previous week.
+2. Vegetable Data:
+  - Checked for missing values in the data of three types of vegetables and merged them into a unified dataset. Verified and removed duplicate records.
+3. Gasoline and Diesel Price Data:
+  - Checked for missing values and removed data where the date did not start on a Monday.
+  - Merged the weather, vegetable, and fuel data into a single dataset. Split the dataset into training (train.csv) and testing (test.csv) sets with an 80:20 ratio using random_seed: 42.
+
+
+
 
 https://ncu365-my.sharepoint.com/:w:/r/personal/113522097_office365_ncu_edu_tw/Documents/Group6_Project_Report.docx?d=wf4baedfdb200498aaac71879b8643bf0&csf=1&web=1&e=qTrlxC
 
