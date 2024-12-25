@@ -34,7 +34,9 @@ DS_Prediction/
 This project involves predictive modeling to forecast the prices and trading volumes of various crops using machine learning techniques like XGBoost, Support Vector Regression (SVR), and Convolutional Neural Networks (CNN). The models utilize weather data, fuel prices, and historical crop prices to make predictions.
 ## Requirements
 Python 3.7+
+
 Required libraries:
+
 pandas
 numpy
 scikit-learn
