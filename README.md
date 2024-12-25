@@ -36,9 +36,8 @@ This project involves predictive modeling to forecast the prices and trading vol
 Python 3.7+
 
 Required libraries:
-
-pandas
-numpy
+- pandas
+- numpy
 scikit-learn
 xgboost
 tensorflow
