@@ -50,10 +50,10 @@ Extracted features include year, month, and week.
 
 2. Train Models:
 
-XGBoost:
+- XGBoost:
 
-Use GridSearchCV for hyperparameter tuning.
-Train separate models for cabbage, cauliflower, and Chinese cabbage prices.
+  Use GridSearchCV for hyperparameter tuning.
+  Train separate models for cabbage, cauliflower, and Chinese cabbage prices.
 
 SVR:
 
