@@ -42,13 +42,13 @@ Required libraries:
 - tensorflow
 - joblib
 ## How to Run
-Preprocess Data:
+1. Preprocess Data:
 
 The script merges and processes weather, fuel, and crop data into a single dataset.
 Missing values are handled via imputation and forward-fill techniques.
 Extracted features include year, month, and week.
 
-Train Models:
+2. Train Models:
 
 XGBoost:
 
@@ -63,10 +63,10 @@ CNN+Transformer:
 
 Deep learning approach for time-series prediction.
 
-Evaluate Models:
+3. Evaluate Models:
 
 Metrics:
 
-Root Mean Squared Error (RMSE)
-Mean Absolute Error (MAE)
-R² Score
+- Root Mean Squared Error (RMSE)
+- Mean Absolute Error (MAE)
+- R² Score
