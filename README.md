@@ -10,6 +10,7 @@ https://ncu365-my.sharepoint.com/:p:/r/personal/113522097_office365_ncu_edu_tw/D
 
 6. Code & Instruction (How to reproduce your result)
 # Project Structure
+```plaintext
 DS_Prediction/
 ├── collect-data-code-ipynb/
 │   ├── Crawler_Fuel.ipynb
@@ -22,4 +23,5 @@ DS_Prediction/
 │   ├── east_weekly_averages.csv
 │   ├── north_weekly_averages.csv
 │   ├── south_weekly_averages.csv
-├── ...
+├──
+...
