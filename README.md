@@ -30,31 +30,31 @@ DS_Prediction/
 ├── train.csv
 ├── ...
 ```
-# Technologies Used
-## Programming Language:
-Python 3.11.9
-## Main Frameworks and Libraries:
-PyTorch: Deep learning framework.
-Pandas: Data manipulation tool.
-NumPy: Numerical computation library.
-Scikit-learn: Data standardization and preprocessing.
-# Environment Requirements
-Ensure the following software and packages are installed:
-Python (version 3.11.9)
-# How to Run
-## Preprocess Data:
+# model.ipynb
+This project involves predictive modeling to forecast the prices and trading volumes of various crops using machine learning techniques like XGBoost, Support Vector Regression (SVR), and Convolutional Neural Networks (CNN). The models utilize weather data, fuel prices, and historical crop prices to make predictions.
+## Requirements
+Python 3.7+
+Required libraries:
+pandas
+numpy
+scikit-learn
+xgboost
+tensorflow
+joblib
+## How to Run
+Preprocess Data:
 The script merges and processes weather, fuel, and crop data into a single dataset.
 Missing values are handled via imputation and forward-fill techniques.
 Extracted features include year, month, and week.
 Train Models:
-## XGBoost:
+XGBoost:
 Use GridSearchCV for hyperparameter tuning.
 Train separate models for cabbage, cauliflower, and Chinese cabbage prices.
-## SVR:
+SVR:
 Alternative regression model with hyperparameter tuning.
-## CNN+Transformer:
+CNN+Transformer:
 Deep learning approach for time-series prediction.
-## Evaluate Models:
+Evaluate Models:
 Metrics:
 Root Mean Squared Error (RMSE)
 Mean Absolute Error (MAE)
