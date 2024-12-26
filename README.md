@@ -1,3 +1,5 @@
+https://ncu365-my.sharepoint.com/:w:/r/personal/113522097_office365_ncu_edu_tw/Documents/Group6_Project_Report.docx?d=wf4baedfdb200498aaac71879b8643bf0&csf=1&web=1&e=qTrlxC
+https://ncu365-my.sharepoint.com/:p:/r/personal/113522097_office365_ncu_edu_tw/Documents/Group6_Project_Slide.pptx?d=w8106d49f03cf4f74aae85a5db572bf78&csf=1&web=1&e=fmK1vj
 # DS_Prediction
 
 ## Project Description
@@ -21,42 +23,10 @@ This project explores the relationships between vegetable prices and multiple fa
   - Checked for missing values and removed data where the date did not start on a Monday.
   - Merged the weather, vegetable, and fuel data into a single dataset. Split the dataset into training (train.csv) and testing (test.csv) sets with an 80:20 ratio using random_seed: 42.
 
-
-
-
-https://ncu365-my.sharepoint.com/:w:/r/personal/113522097_office365_ncu_edu_tw/Documents/Group6_Project_Report.docx?d=wf4baedfdb200498aaac71879b8643bf0&csf=1&web=1&e=qTrlxC
-
-3. Video link of your presentation (please control in about 5 minutes, and upload to Youtube)
-4. Presentation slide (in the format of ppt)
-
-https://ncu365-my.sharepoint.com/:p:/r/personal/113522097_office365_ncu_edu_tw/Documents/Group6_Project_Slide.pptx?d=w8106d49f03cf4f74aae85a5db572bf78&csf=1&web=1&e=fmK1vj
-
-6. Code & Instruction (How to reproduce your result)
-# Project Structure
-```plaintext
-DS_Prediction/
-├── collect-data-code-ipynb/
-│   ├── Crawler_Fuel.ipynb
-├── vegetable-csv/
-│   ├── Domestic_Cabbage.csv
-│   ├── Domestic_Cauliflower.csv
-│   ├── Domestic_Chinese_cabbage.csv
-├── weather-csv/
-│   ├── central_weekly_averages.csv
-│   ├── east_weekly_averages.csv
-│   ├── north_weekly_averages.csv
-│   ├── south_weekly_averages.csv
-├── Data_Analysis.ipynb
-├── fuel_prices.csv
-├── model.ipynb
-├── test.csv
-├── train.csv
-├── ...
-```
-# model.ipynb
+# Price prediction models(model.ipynb)
 This project involves predictive modeling to forecast the prices and trading volumes of various crops using machine learning techniques like XGBoost, Support Vector Regression (SVR), and Convolutional Neural Networks (CNN). The models utilize weather data, fuel prices, and historical crop prices to make predictions.
 ## Requirements
-- Python 3.7+
+- Python 3.11.9
 
 Required libraries:
 - pandas
@@ -93,4 +63,26 @@ Required libraries:
 
   - Root Mean Squared Error (RMSE)
   - Mean Absolute Error (MAE)
-  - R² Score
+  - R-square Score
+
+# Project Structure
+```plaintext
+DS_Prediction/
+├── collect-data-code-ipynb/
+│   ├── Crawler_Fuel.ipynb
+├── vegetable-csv/
+│   ├── Domestic_Cabbage.csv
+│   ├── Domestic_Cauliflower.csv
+│   ├── Domestic_Chinese_cabbage.csv
+├── weather-csv/
+│   ├── central_weekly_averages.csv
+│   ├── east_weekly_averages.csv
+│   ├── north_weekly_averages.csv
+│   ├── south_weekly_averages.csv
+├── Data_Analysis.ipynb
+├── fuel_prices.csv
+├── model.ipynb
+├── test.csv
+├── train.csv
+├── ...
+```
