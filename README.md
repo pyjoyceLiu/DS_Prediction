@@ -36,14 +36,10 @@ Required libraries:
 - tensorflow
 - joblib
 ## How to Run
-1. Preprocess Data:
 
-- The script merges and processes weather, fuel, and crop data into a single dataset.
-- Missing values are handled via imputation and forward-fill techniques.
-- Extracted features include year, month, and week.
 
-2. Train Models:
-
+1. Train Models:
+This project uses three prediction models to forecast vegetable prices. The models utilize the preprocessed train.csv data as the training set and test.csv as the test dataset.
 - XGBoost:
 
   - Use GridSearchCV for hyperparameter tuning.
@@ -57,7 +53,7 @@ Required libraries:
 
   A deep learning method that integrates convolutional and transformer-based architectures for advanced predictive modeling.
 
-3. Evaluate Models:
+2. Evaluate Models:
 
 - Metrics:
 
