@@ -1,5 +1,3 @@
-https://ncu365-my.sharepoint.com/:w:/r/personal/113522097_office365_ncu_edu_tw/Documents/Group6_Project_Report.docx?d=wf4baedfdb200498aaac71879b8643bf0&csf=1&web=1&e=qTrlxC
-https://ncu365-my.sharepoint.com/:p:/r/personal/113522097_office365_ncu_edu_tw/Documents/Group6_Project_Slide.pptx?d=w8106d49f03cf4f74aae85a5db572bf78&csf=1&web=1&e=fmK1vj
 # DS_Prediction
 
 ## Project Description
