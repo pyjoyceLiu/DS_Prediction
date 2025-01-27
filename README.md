@@ -1,4 +1,4 @@
-# DS_Prediction000
+# Vegtable Prices Predictor
 
 ## Project Description
 This project explores the relationships between vegetable prices and multiple factors such as weather, supply and demand, and fuel prices. It utilizes data to construct three price prediction models: XGBoost, SVR, and CNN+Transformer. The goal is to improve the accuracy of price predictions, enabling applications in agricultural planning, supply chain management, and policy-making.
